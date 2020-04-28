@@ -1,0 +1,11 @@
+a {
+    padding: 2%;
+    margin-right: 2%;
+  }
+
+ul.footer_bar {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
