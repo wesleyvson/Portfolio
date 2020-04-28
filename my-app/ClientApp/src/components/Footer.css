@@ -9,3 +9,15 @@ ul.footer_bar {
   justify-content: center;
   display: flex;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 7%;            /* Footer height */
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(1, 69, 255, 0.05);
+}
+
