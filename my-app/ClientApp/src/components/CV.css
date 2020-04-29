@@ -1,0 +1,17 @@
+.cv-personalia h3{
+    font-weight: 1000;
+    text-align: center;
+}
+
+.cv-personalia p{
+    font-family: open-sans;
+    font-size: 18;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+.cv-personalia b{
+    font-family: open-sans;
+    font-size: 18;
+    font-weight: 1000;
+}

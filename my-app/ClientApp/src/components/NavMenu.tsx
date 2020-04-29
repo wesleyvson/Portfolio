@@ -29,9 +29,6 @@ export class NavMenu extends Component<props, state> {
                   <NavLink tag={Link} className="text-dark" to="/overmij">Over mij</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/cv">curriculum vitae</NavLink>
-                </NavItem>
-                <NavItem>
                   <NavLink tag={Link} className="text-dark" to="/projecten">Projecten</NavLink>
                 </NavItem>
                 <NavItem>
