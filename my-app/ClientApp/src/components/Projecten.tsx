@@ -38,7 +38,7 @@ export class Projecten extends Component<props, state> {
 
   render() {
     return (
-      <Container className="container-design">
+      <Container className="flex-container">
         <Row>
           <Col>
             <h1>Projecten</h1>
@@ -46,24 +46,24 @@ export class Projecten extends Component<props, state> {
         </Row>
         <Row>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', height: '330px' }}>
-                <CardImg variant="top" src={Plaatje3} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje3} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Battleport</h4></CardTitle>
                   <CardText>
                     <p>Een schoolproject waarin we een videogame moesten ontwikkelen.</p>
                   </CardText>
-                  {this.renderRedirect("/projecten/battleport")}
-                  <Button variant="primary" block onClick={this.setRedirect}>Go somewhere</Button>
+                  {this.renderRedirect("/project/battleport")}
+                  <Button ClassName="knoppie" variant="primary" block onClick={this.setRedirect}>Go somewhere</Button>
                 </CardBody>
               </Card>
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', maxHeight: '330px' }}>
-                <CardImg variant="top" src={Plaatje4} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje4}  height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>SpaceShooter</h4></CardTitle>
                   <CardText>
@@ -75,9 +75,9 @@ export class Projecten extends Component<props, state> {
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', maxHeight: '330px' }}>
-                <CardImg variant="top" src={Plaatje5} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje5} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Webshop</h4></CardTitle>
                   <CardText>
@@ -89,9 +89,9 @@ export class Projecten extends Component<props, state> {
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', maxHeight: '330px'}}>
-                <CardImg variant="top" src={Plaatje6} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje6} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Minor AI</h4></CardTitle>
                   <CardText>
@@ -106,9 +106,9 @@ export class Projecten extends Component<props, state> {
 
         <Row>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', maxHeight: '330px'}}>
-                <CardImg variant="top" src={Plaatje7} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje7} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Advanced Mobility</h4></CardTitle>
                   <CardText>
@@ -120,9 +120,9 @@ export class Projecten extends Component<props, state> {
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', height: '330px' }}>
-                <CardImg variant="top" src={Plaatje8} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje8} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Wordt vervolgt</h4></CardTitle>
                   <CardText>
@@ -134,9 +134,9 @@ export class Projecten extends Component<props, state> {
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', height: '330px'}}>
-                <CardImg variant="top" src={Plaatje8} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje8} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Wordt vervolgt</h4></CardTitle>
                   <CardText>
@@ -148,9 +148,9 @@ export class Projecten extends Component<props, state> {
             </div>
           </Col>
           <Col>
-            <div className="card-design">
-              <Card style={{ width: '90%', height: '330px'}}>
-                <CardImg variant="top" src={Plaatje8} height='150px' />
+            <div className="flex-item">
+              <Card>
+                <CardImg variant="top" src={Plaatje8} height = "150px"/>
                 <CardBody>
                   <CardTitle><h4>Wordt vervolgt</h4></CardTitle>
                   <CardText>

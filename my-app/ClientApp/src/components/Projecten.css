@@ -1,23 +1,19 @@
-.card-design h4{
-    font-family: open-sans;
-    font-weight: 500;
+.flex-container {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
-.container-design h1{
-    padding-bottom: 2%;
-}
-
-.card-design p{
-    font-family: open-sans;
-    font-size: 15px;
-}
-
-.card-design{
+.flex-item {
+    display: flex; 
     padding-bottom: 8%;
-}
+    margin: auto;
 
-.container-design {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 5%;
+    width: 90%;
+    height: 100%;
 }
